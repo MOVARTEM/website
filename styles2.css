@@ -1,0 +1,180 @@
+header {
+            text-align: center;
+            background-color: none;
+            padding: 10px;
+            color: #3f3f3f;
+            font-family: 'landasans';
+            
+        }
+header img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove extra space below the image */
+    margin: 0 auto; /* Center the image horizontally */
+}
+header img:hover {
+    opacity:0.6;
+}
+nav {
+            text-align: center;
+            background-color: none;
+            padding: 10px;
+            margin-top: 100px;
+        }
+nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: ;
+            font-size: 19px;
+        }
+nav a:hover {
+            text-decoration: underline;
+        }
+body {
+            font-family: 'impact';
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #000;
+
+        }
+.container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            margin-top: 20px;
+            display: flex;
+            background-color: none;
+        }
+
+
+.container3 {
+            text-align: center;
+            background-color: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: none;
+            padding: 5px;
+            color: #f90000;
+            opacity: ;
+            font-size: 35px;
+            font-family: 'helvetica neue';
+            letter-spacing: px;
+            font-weight: bold;
+            line-height: 1px;
+        }
+
+.container3 a:hover {
+text-decoration: underline;
+        }
+
+.email-link {
+    color: #f90000; /* Change the color to red (adjust as needed) */
+    text-decoration: none; /* Remove the underline from the link */
+}
+
+.social-link {
+    color: #f90000; /* Change the color to red (adjust as needed) */
+    text-decoration: none; /* Remove the underline from the link */
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%; /* Ensure the container doesn't exceed its parent's width */
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+}
+
+.image-link {
+    text-decoration: none;
+}
+
+/* Style individual images within the container */
+.responsive-image {
+    max-width: 50%; /* Make the images responsive within the container */
+    height: auto;
+    text-align: center; /* Center the images within their respective containers */
+    width: 100%; /* Set a specific width for the side-by-side images (adjust as needed) */
+    margin: 30px; /* Add margin to control spacing between images */
+    border: 2px solid rgba(255, 0, 0, 0.5);
+}
+
+.quote-container {
+            text-align: center;
+            margin: -100px auto; 
+            background-color: none;
+            padding: 40px;
+            border-radius: 5px;
+            max-width: 760px; 
+            font-size: 20px;
+            font-weight: ;
+            color: #f90000;
+            opacity: ;
+            font-family: 'creato display';
+            letter-spacing: px;
+            font-style: italic;
+        }
+       
+.video-column {
+            flex: 2;
+            padding: 20px;
+            background-color: none;
+            color: #f90000;
+            opacity: ;
+            font-family: 'helvetica neue';
+            letter-spacing: px;
+            }
+.video-container {
+            text-align: center;
+        }
+.image-collage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style individual images within the collage */
+.image {
+    max-width: 33.333%;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0; /* Remove any font size */
+    line-height: 0; /* Set line-height to 0 to remove spacing between rows */
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+    vertical-align: top;
+    margin: 0;
+}
+
+iframe {
+            max-width: 100%;
+        }
+
+footer {
+            position: fixed; /* Fixed position to keep it at the bottom */
+            bottom: 0; /* Align to the bottom of the viewport */
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%); /* Center horizontally */
+            background-color: none; /* Background color for the footer */
+            color: #fff; /* Text color for the footer */
+            padding: 10px; /* Adjust padding as needed */
+            text-align: center; /* Center-align text inside the footer */
+            font-size: 9px;
+            font-family: 'arial';
+
+        }

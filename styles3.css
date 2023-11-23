@@ -1,0 +1,77 @@
+footer {
+            position: fixed; /* Fixed position to keep it at the bottom */
+            bottom: 0; /* Align to the bottom of the viewport */
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%); /* Center horizontally */
+            background-color: none; /* Background color for the footer */
+            color: #fff; /* Text color for the footer */
+            padding: 10px; /* Adjust padding as needed */
+            text-align: center; /* Center-align text inside the footer */
+            font-size: 9px;
+            font-family: 'arial';
+        }
+header {
+            text-align: center;
+            background-color: none;
+            padding: 10px;
+            color: #f90000;
+            font-family: 'landasans';
+            
+        }
+header img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove extra space below the image */
+    margin: 0 auto; /* Center the image horizontally */
+}
+nav {
+            text-align: center;
+            background-color: none;
+            padding: 10px;
+            margin-top: 100px;
+        }
+nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: ;
+            font-size: 19px;
+        }
+nav a:hover {
+            text-decoration: underline;
+        }
+body {
+            font-family: 'impact';
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #000;
+
+        }
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed to control spacing between columns */
+    align-items: center;
+    max-width: 90%;
+    margin: 120px auto;
+}
+
+.image-link {
+    flex-basis: calc(50% - 20px); /* Adjust as needed to control the width of each column */
+    text-decoration: none;
+    margin: 10px; /* Adjust the margin to control space between images */
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid rgba(255, 0, 0, 0.5);
+    border-radius: 10px;
+    
+}
+
+/* Optional: Add media query for smaller screens */
+@media (max-width: 768px) {
+    .image-link {
+        flex-basis: 100%; /* Allow images to take full width on smaller screens */
+    }
