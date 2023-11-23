@@ -47,7 +47,7 @@ body {
     background-repeat: no-repeat;
     width: 85%;
     height: 85%;
-    animation: flicker 1s infinite;
+    animation: flicker is infinite;
 }
 
 @keyframes flicker {
