@@ -44,7 +44,7 @@ body {
 .flickering-image {
     background-size: cover;
     background-repeat: no-repeat;
-    width: 85%;
+    max-width: 85%;
     height: auto;
     animation: flicker 1s infinite;
     position: absolute;
@@ -105,8 +105,12 @@ footer {
             font-family: 'arial';
 
         }
-@media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 600px) {
     header {
-        width: 90%;
-        text-align: center; /* Adjust as needed for your layout */
-    }
+            text-align: center;
+            background-color: none;
+            color: #000;
+            position: center;
+            margin: 50px;
+            z-index: 2;    
+            }
