@@ -8,15 +8,23 @@
 }
 
 @media only screen and (max-width: 600px) {
-  header {}
-            background-color: none;
-            color: #000;
-    }
-  nav {
+  header {
+    text-align: center;
+    background-color: none;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 100px;
+}
+
+nav {
+            text-align: center;
             background-color: none;
             padding: 10px;
 
         }
+}
 nav a {
             color: #fff;
             text-decoration: none;
