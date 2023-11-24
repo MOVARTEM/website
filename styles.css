@@ -1,12 +1,3 @@
-@font-face {
-  font-family: 'DIGITALDREAMFAT';
-  src: url('DIGITALDREAMFAT.ttf') format('truetype');
-  /* Add additional font formats and paths if needed */
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 header {
             text-align: center;
             background-color: none;
@@ -106,4 +97,18 @@ footer {
             font-family: 'arial';
 
         }
+@media only screen and (max-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        margin-top: 10px; /* Adjust spacing between header and navigation */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
