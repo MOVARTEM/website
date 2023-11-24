@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'DIGITALDREAMFAT';
+  src: url('DIGITALDREAMFAT.ttf') format('tff');
+  /* Add additional font formats and paths if needed */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 header {
             text-align: center;
             background-color: none;
@@ -79,7 +87,7 @@ img {
             font-size: 20px;
             margin: 10px;
             color: #f90000;
-            font-family: 'digital dream fat';
+            font-family: 'DIGITALDREAMFAT';
             text-align: right;
 
         }
