@@ -1,0 +1,49 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+<header>
+ <nav>
+        <a href="page1.html">FILMS</a>
+        <a href="page2.html">SEEK AND SEE</a>
+        <a href="page3.html">CONTACT</a>
+</nav>
+</header>
+<body>
+ <img src="logo.png" alt="Flickering Image" class="flickering-image">
+
+   
+<p id="counter"> <span id="count">0</span></p>
+<script>
+        // JavaScript code to update the counter
+        let count = 0;
+
+        // Check if there's a stored count in localStorage
+        if (localStorage.getItem('pageCount')) {
+            count = parseInt(localStorage.getItem('pageCount'));
+        }
+
+        // Update the counter display
+        document.getElementById('count').textContent = count;
+
+        // Increment the counter on each page visit
+        count++;
+        document.getElementById('count').textContent = count;
+
+        // Save the updated count to localStorage
+        localStorage.setItem('pageCount', count.toString());
+</script>
+    <footer> 
+    <p>© 2023 MOVARTEM STUDIOS. All rights reserved.</p>
+    </footer>  
+
+</body>
+</html>
+
+
+
+
+
+
