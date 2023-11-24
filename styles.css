@@ -105,3 +105,8 @@ footer {
             font-family: 'arial';
 
         }
+@media only screen and (max-width: 600px) {
+    header {
+        width: 90%;
+        text-align: center; /* Adjust as needed for your layout */
+    }
