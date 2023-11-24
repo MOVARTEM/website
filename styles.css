@@ -39,9 +39,13 @@ body {
     width: 85%;
     height: 85%;
     animation: flicker 1s infinite;
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 1; /* Ensure the image is behind the navigation */
 }
+
 
 @keyframes flicker {
     0%, 100% {
