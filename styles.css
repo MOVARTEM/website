@@ -6,6 +6,26 @@
   font-style: normal;
   font-display: swap;
 }
+
+@media only screen and (max-width: 600px) {
+  header {}
+            background-color: none;
+            color: #000;
+    }
+  nav {
+            background-color: none;
+            padding: 10px;
+
+        }
+nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 10px;
+            font-size: 19px;
+        }
+
+}
+
 header {
             text-align: center;
             background-color: none;
@@ -105,10 +125,4 @@ footer {
             font-family: 'arial';
 
         }
-        @media only screen and (max-width: 600px) {
-    header {
-            text-align: center;
-            background-color: none;
-            color: #000;
-            position: center;  
-            }
+
