@@ -110,7 +110,5 @@ footer {
             text-align: center;
             background-color: none;
             color: #000;
-            position: center;
-            margin: 50px;
-            z-index: 2;    
+            position: center;  
             }
