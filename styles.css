@@ -45,7 +45,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 85%;
-    height: 85%;
+    height: auto;
     animation: flicker 1s infinite;
     position: absolute;
     top: 50%;
