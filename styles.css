@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'DIGITALDREAMFAT';
-  src: url('DIGITALDREAMFAT.ttf') format('tff');
+  src: url('DIGITALDREAMFAT.ttf') format('truetype');
   /* Add additional font formats and paths if needed */
   font-weight: normal;
   font-style: normal;
@@ -87,7 +87,7 @@ img {
             font-size: 20px;
             margin: 10px;
             color: #f90000;
-            font-family: 'DIGITALDREAMFAT';
+            font-family: 'Courier New';
             text-align: right;
 
         }
