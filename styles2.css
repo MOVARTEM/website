@@ -181,25 +181,8 @@ footer {
         }
 @media (max-width: 768px) {
   .image-collage {
-    display: flex;
-    flex-direction: column;
+    display: column;
+    flex-direction: wrap;
     align-items: center;
-}
-
-/* Style individual images within the collage */
-.image {
-    max-width: 100%;
-    box-sizing: border-box;
-    padding: 0;
-    font-size: 0; /* Remove any font size */
-    line-height: 0; /* Set line-height to 0 to remove spacing between rows */
-    margin: 0;
-}
-
-.image img {
-    width: 100%;
-    height: auto;
-    border: none;
-    vertical-align: top;
 }
 }
