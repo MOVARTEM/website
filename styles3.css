@@ -76,7 +76,7 @@ body {
         flex-direction: column; /* Display images in a column */
         align-items: center;
         max-width: 90%;
-        margin: 60px auto;
+        margin: 10px auto;
     }
 
     .image-link {
