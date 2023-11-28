@@ -74,4 +74,12 @@ body {
 @media (max-width: 768px) {
     .image-link {
         flex-basis: 100%; /* Allow images to take full width on smaller screens */
+.image-container {
+    display: column;
+    justify-content: space-between; /* Adjust as needed to control spacing between columns */
+    align-items: center;
+    max-width: 90%;
+    margin: 120px auto;
+}
+
     }
