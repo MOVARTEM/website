@@ -70,16 +70,25 @@ body {
     
 }
 
-/* Optional: Add media query for smaller screens */
 @media (max-width: 768px) {
-    .image-link {
-        flex-basis: 100%; /* Allow images to take full width on smaller screens */
-.image-container {
-    display: column;
-    justify-content: space-between; /* Adjust as needed to control spacing between columns */
-    align-items: center;
-    max-width: 90%;
-    margin: 120px auto;
-}
-
+    .image-container {
+        display: flex;
+        flex-direction: column; /* Display images in a column */
+        align-items: center;
+        max-width: 90%;
+        margin: 120px auto;
     }
+
+    .image-link {
+        flex-basis: 100%; /* Allow images to take full width in a column */
+        text-decoration: none;
+        margin: 10px;
+    }
+
+    .responsive-image {
+        max-width: 100%;
+        height: auto;
+        border: 2px solid rgba(255, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+}
