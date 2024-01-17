@@ -206,8 +206,9 @@ footer {
     margin: 0;
 }
             
-iframe {
-            max-width: 300px;
-        }
+.video-column iframe {
+        max-width: 100%; /* Make the iframe responsive to the width of its container */
+        height: auto; /* Maintain the aspect ratio */
+    }
             
 }
