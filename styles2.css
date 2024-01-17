@@ -205,5 +205,8 @@ footer {
     vertical-align: top;
     margin: 0;
 
+iframe {
+            max-width: 60%;
+        }
             
 }
