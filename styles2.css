@@ -162,9 +162,6 @@ text-decoration: underline;
     margin: 0;
 }
 
-iframe {
-            height: 315px;
-        }
 
 footer {
             position: fixed; /* Fixed position to keep it at the bottom */
