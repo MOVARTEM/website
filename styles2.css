@@ -205,9 +205,5 @@ footer {
     vertical-align: top;
     margin: 0;
 }
-
-iframe {
-        height: 315px; /* Reset the height to maintain aspect ratio */
-    }
             
 }
