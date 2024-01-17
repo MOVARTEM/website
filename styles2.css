@@ -207,8 +207,9 @@ footer {
 }
             
 .video-column iframe {
-        max-width: 100%; /* Make the iframe responsive to the width of its container */
-        height: 450px; /* Maintain the aspect ratio */
+        width: 100%; /* Make the iframe responsive to the width of its container */
+        height: auto; /* Reset the height to maintain aspect ratio */
+        max-height: 100vw; /* Set a maximum height based on the viewport width */
     }
             
 }
