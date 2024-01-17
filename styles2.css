@@ -206,7 +206,7 @@ footer {
     vertical-align: top;
     margin: 0;
 }
-iframe {
+.iframe {
                 height: 215px; /* Height for smaller screens */
             }
             
