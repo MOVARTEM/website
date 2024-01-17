@@ -162,6 +162,9 @@ text-decoration: underline;
     margin: 0;
 }
 
+iframe {
+            max-width: 100%;
+        }
 
 footer {
             position: fixed; /* Fixed position to keep it at the bottom */
