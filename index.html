@@ -17,35 +17,34 @@
 
    
 <p id="counter"> <span id="count">0</span></p>
-<script>
-    // JavaScript code to update the counter
-    let count = 0;
+ <script>
+        // JavaScript code to update the counter
+        let count = 0;
 
-    // Check if there's a stored count in localStorage
-    if (localStorage.getItem('pageCount')) {
-        count = parseInt(localStorage.getItem('pageCount'));
-    }
+        // Check if there's a stored count in localStorage
+        if (localStorage.getItem('pageCount')) {
+            count = parseInt(localStorage.getItem('pageCount'));
+        }
 
-    // Update the counter display
-    document.getElementById('count').textContent = count;
+        // Update the counter display
+        document.getElementById('count').textContent = count;
 
-    // Increment the counter on each page visit
-    count++;
-    document.getElementById('count').textContent = count;
+        // Increment the counter on each page visit
+        count++;
+        document.getElementById('count').textContent = count;
 
-    // Save the updated count to localStorage
-    localStorage.setItem('pageCount', count.toString());
+        // Save the updated count to localStorage
+        localStorage.setItem('pageCount', count.toString());
 
-    // Check if the screen width is less than or equal to 600px (adjust as needed)
-    if (window.innerWidth <= 600) {
-        // Get the img element
-        var imgElement = document.querySelector('img');
-        
-        // Change the src attribute to the mobile image path
-        imgElement.src = 'mobile.png'; // Change the path accordingly
-    }
-</script>
-    <footer> 
+        // Check if the screen width is less than or equal to 600px (adjust as needed)
+        if (window.innerWidth <= 600) {
+            // Get the img element
+            var imgElement = document.querySelector('img');
+            
+            // Change the src attribute to the mobile image path
+            imgElement.src = 'mobile.png'; // Change the path accordingly
+        }
+    </script>
     <p>© 2023 MOVARTEM STUDIOS. All rights reserved.</p>
     </footer>  
 
